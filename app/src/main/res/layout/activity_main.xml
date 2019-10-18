@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bordure"
+        android:text="Hello World !!!"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bordure"
+        android:text="Bonjour !!!"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bordure"
+        android:text="Ahla w sahla !!!"
+        />
+</LinearLayout>-->
+
+<!---<RelativeLayout android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bordure"
+        android:text="Hello World !!!"
+        />
+
+    <TextView
+        android:id="@+id/bonjour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@id/hello"
+        android:background="@drawable/bordure"
+        android:text="Bonjour !!!" />
+
+    <TextView
+        android:id="@+id/ahla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bonjour"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@id/bonjour"
+        android:background="@drawable/bordure"
+        android:text="Ahla w sahla !!!" />
+</RelativeLayout>-->
+
+<!--<RelativeLayout android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bordure"
+        android:text="Hello World !!!" />
+
+    <TextView
+        android:id="@+id/bonjour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ahla"
+        android:layout_toRightOf="@id/ahla"
+        android:background="@drawable/bordure"
+        android:text="Bonjour !!!" />
+
+    <TextView
+        android:id="@+id/ahla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello"
+        android:layout_toRightOf="@id/hello"
+        android:background="@drawable/bordure"
+        android:text="Ahla w sahla !!!" />
+</RelativeLayout>-->
+
+<TableLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/bordure"
+    >
+    <TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_column="0"
+        android:layout_span="2"
+        android:background="@drawable/bordure"
+        android:text="Titre de tableau"
+        /></TableRow>
+    <TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_column="0"
+        android:background="@drawable/bordure"
+        android:text="v"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bordure"
+            android:text="menu avec la racourci"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bordure"
+            android:text="Racourcci"
+            />
+
+
+    </TableRow>
+    <TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_column="1"
+        android:layout_span="1"
+        android:text="Menu sans raccourci"
+        android:background="@drawable/bordure"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="non"
+            android:background="@drawable/bordure"
+            />
+    </TableRow>
+</TableLayout>
